@@ -1,6 +1,6 @@
-# Totally ripped off Dallas theme
+# from junkfood.zsh-theme
 
-# Grab the current date (%W) and time (%t):
+# Grab the current date (yyyy-mm-dd) and time (HH:MM:SS, 24-hour):
 SUSHIHAO_TIME_="%{$fg_bold[yellow]%}"`date +%Y-%m-%d`" %* %{$reset_color%}"
 
 # Grab the current machine name
