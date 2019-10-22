@@ -1,5 +1,7 @@
 #!/bin/bash -f
 # Function to simplify using tmux
+# Original file: https://github.com/kshenoy/dotfiles/blob/master/tmux/tmux_scripts
+# Author kshenoy
 
 __tmux_exec() {                                                                                                    #{{{1
   # TODO: The only function that directly calls tmux. This allows me to inject any default options
